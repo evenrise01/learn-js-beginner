@@ -19,3 +19,12 @@ let color = COLOR_ORANGE;
 console.log(color); // #FF7F00
 //Being a “constant” just means that a variable’s value never changes. But some constants are known before execution (like a hexadecimal value for red) and some constants are calculated in run-time, during the execution, but do not change after their initial assignment.
 
+let admin, name;
+
+name = "john";
+admin = name;
+
+console.log(admin);
+
+let ourPlanetName = "Earth"
+let currentPlanetVisitor = "Martian"
